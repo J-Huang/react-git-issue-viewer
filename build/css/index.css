@@ -1,0 +1,54 @@
+.pagination-container {
+  margin-top:4px;
+  text-align: center;
+}
+.pagination-container .issue-pagination{
+    display: inline-block;
+    margin: 5px auto;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom:1;
+    *display: inline;
+}
+.page-link>a {
+	margin: 0px 6px;
+	font-size: 12px!important;
+}
+.issue-title:hover {
+	color: blue;
+}
+.issue-list {
+	padding: 8px 8px;
+	border-left: 1px solid rgb(230, 230, 230);
+	border-right: 1px solid rgb(230, 230, 230);
+	list-style-type: none;
+}
+.issue-list.even{
+	background-color: rgb(245, 245, 245);
+}
+.comments-number {
+	float: right;
+}
+.comments-number: hover {
+	color: blue;
+}
+.comments-container {
+	position: relative;
+	margin-top: 3px;
+	width: 750px;
+}
+.user-name, .create-time {
+	bottom: 0px;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+.comment-content {
+	height: 40px;
+}
+div.comment-caret {
+	display:none;
+}
+.avatar-container{
+  float: left;
+  margin: 4px 8px 0px 0px;
+}

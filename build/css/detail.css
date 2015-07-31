@@ -1,0 +1,32 @@
+.issue-title {
+	font-size: 18px;
+}
+.issue-state {
+	display: inline-block;
+	font-size:18px;
+	margin-right:8px;
+}
+.comment-content {
+	border: 1px solid;
+	margin: 8px 0px 15px;
+	padding: 8px 8px 0px;
+	-moz-box-shadow: 1px 1px 3px #CCCCCC;
+    -webkit-box-shadow: 1px 1px 3px #CCCCCC;
+    box-shadow: 1px 1px 3px #CCCCCC;
+    border: 1px solid #CCCCCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.comment-content img {
+    max-width: 100%;
+}
+.comment-caret {
+	 display: block;
+     margin:-8px 0px -8px 18px;
+     color: white; 
+     border-left: 8px solid transparent; 
+     border-right: 8px solid transparent; 
+     border-top: 8px solid transparent; 
+     border-bottom: 8px solid #CCCCCC; 
+}
